@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: yellow;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  min-height: 80vh;
+  position: relative;
+}
+
+.box {
+  background-color: yellow;
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 1 / 1;
+  top: 40%;
+  left: 45%;
+}
